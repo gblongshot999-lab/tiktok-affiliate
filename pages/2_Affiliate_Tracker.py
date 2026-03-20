@@ -1,5 +1,8 @@
 """Affiliate Tracker Page — Manage products and track link performance."""
 
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import streamlit as st
 import pandas as pd
 from database import (
